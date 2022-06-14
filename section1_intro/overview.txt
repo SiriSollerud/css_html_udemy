@@ -1,0 +1,5 @@
+html --> content
+css --> presenation
+js --> dynamic, effects and web applications
+
+index.html --> first page in a webpage!
