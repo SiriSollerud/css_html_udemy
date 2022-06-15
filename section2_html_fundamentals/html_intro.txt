@@ -1,0 +1,8 @@
+HTML = HyperText Markup Language
+--> not a programming language!
+
+use to structure and describe the content of a webpage
+
+<p>HTML is a markup language</p>
+  1. opening tag <p>
+  2. element --> content of element 
