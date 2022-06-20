@@ -1,0 +1,17 @@
+--resolving conflicting declarations--
+priority:
+  (declarations marked !important has highest priority- but bad style)
+  (inline styles has higher priority- but bad style)
+  1. ID (#) selector
+  2. class (.) or pseudo-class (:) selector
+  3. element selector (p, div, li, etc.)
+  4. universal selector (*)
+  --> if there are multiple 1, 2, or 3 then
+      last selector in code applies
+
+an element can have multiple classes
+class = "copyright text"
+
+--inheritance--
+- most elements inherit text properties from parent
+  --> inherited proprty is easily overwritten - they have low priority

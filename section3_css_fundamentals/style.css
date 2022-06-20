@@ -1,0 +1,123 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+.page-navigation {
+  font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #00a7dffc;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+h3 {
+  font-size: x-large;
+}
+
+h4 {
+  font-size: larger;
+}
+
+p {
+  font-size: large;
+  line-height: 1.5;
+}
+
+li {
+  font-size: large;
+}
+
+/* article header p {
+  font-style: italic;
+} */
+
+/* footer p {
+  font-size: 16px;
+} */
+
+/*ids must be unique*/
+#author {
+  font-style: italic;
+  font-size: medium;
+}
+
+#copyright {
+  font-style: italic;
+  font-size: medium;
+}
+
+/*
+if you want similar id names, use class instead
+also, irl classes are used for scalability and future changes 
+*/
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+}
+
+.page-header {
+  background-color: #d7f2fafc;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #d7f2fafc;
+  border-top: 5px solid #00a7dffc;
+  border-bottom: 5px solid #00a7dffc;
+}
+
+/*Styling links -LVHA*/
+a:link {
+  color: rgb(4, 112, 149);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(4, 112, 149);
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:active {
+  font-style: italic;
+}
+
+/* li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(2) {
+  color: red;
+}
+li:nth-child(odd) {
+  color: green;
+} */
