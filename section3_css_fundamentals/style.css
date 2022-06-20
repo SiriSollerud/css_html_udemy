@@ -1,3 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.main-header {
+  background-color: #d7f2fafc;
+  border-top: 10px solid #00a7dffc;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+aside {
+  background-color: #d7f2fafc;
+  border-top: 5px solid #00a7dffc;
+  border-bottom: 5px solid #00a7dffc;
+  padding: 20px 0;
+  width: 500px;
+}
+
 h1,
 h2,
 h3,
@@ -24,23 +62,40 @@ h1 {
 
 h2 {
   font-size: xx-large;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: x-large;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 h4 {
   font-size: larger;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 p {
   font-size: large;
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 li {
   font-size: large;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 /* article header p {
@@ -75,20 +130,6 @@ also, irl classes are used for scalability and future changes
   list-style: none;
 }
 
-.page-header {
-  background-color: #d7f2fafc;
-}
-
-body {
-  background-color: #f7f7f7;
-}
-
-aside {
-  background-color: #d7f2fafc;
-  border-top: 5px solid #00a7dffc;
-  border-bottom: 5px solid #00a7dffc;
-}
-
 /*Styling links -LVHA*/
 a:link {
   color: rgb(4, 112, 149);
@@ -105,6 +146,11 @@ a:hover {
 
 a:active {
   font-style: italic;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
 }
 
 /* li:first-child {

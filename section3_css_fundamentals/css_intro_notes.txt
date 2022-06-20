@@ -15,3 +15,12 @@ class = "copyright text"
 --inheritance--
 - most elements inherit text properties from parent
   --> inherited proprty is easily overwritten - they have low priority
+
+css box model
+- visible part of element on the page (fill area)
+    content: text, images etc.
+    border: still inside of the element
+    padding: inside element
+- margin
+
+collapsing margins
